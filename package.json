@@ -1,0 +1,15 @@
+{
+  "name": "maison-modern-poc-infra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload": "node src/sendJsonToS3.js"
+  },
+  "author": "Pierre Tomasina <pierre.tomasina@continuousphp.com> (continuousphp.com)",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.61.0"
+  }
+}

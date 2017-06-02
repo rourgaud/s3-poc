@@ -1,0 +1,11 @@
+var config = {
+    "AWS": {
+        key: 'XXX'
+        secret: 'XXX',
+        region: 'eu-west-1',
+
+        bucket: 'nvision.maison-moderne-guide.poc'
+    }
+}
+
+module.exports = config;
